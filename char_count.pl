@@ -17,11 +17,11 @@ use vars qw($VERSION %IRSSI);
 
 $VERSION = "0.1";
 %IRSSI = (
-    authors     => '@chimo',
+    authors     => '@chimo on identi.ca',
     contact     => 'chimo@chromic.org',
     name        => 'char_count.pl',
-    description => 'Displays character count of current message',
-    license     => 'GNU General Public License',
+    description => 'Displays character count of the message you are currently typing',
+    license     => 'GNU General Public License version 2 (GPLv2)',
 );
 
 sub char_count {
